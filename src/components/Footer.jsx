@@ -21,8 +21,8 @@ function Footer() {
            <div >
            <h4 className='text-white'>Links</h4>
            <p  ><Link to={'/'} style={{textDecoration:'none',color:'white'}}>Home Page</Link></p>
-           <p><Link to={'/wishlist'}>Wishlist</Link></p>
-           <p> <Link to={'/cart'}>Cart</Link></p>
+           <p><Link to={'/wishlist'}  style={{textDecoration:'none',color:'white'}}>Wishlist</Link></p>
+           <p> <Link to={'/cart'}  style={{textDecoration:'none',color:'white'}}>Cart</Link></p>
            </div>
        
        </div>
