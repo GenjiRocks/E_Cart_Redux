@@ -27,13 +27,13 @@ function Footer() {
        
        </div>
        <div className="col-md-2 p-4">
-           <h4>Guides</h4>
+           <h4 className='text-white'>Guides</h4>
             <p>React</p>
             <p>React Bootstrap</p>
             <p>Bootswatch</p>
        </div>
        <div className="col-md-3 p-4">
-           <h4>Contact Us</h4>
+           <h4 className='text-white'>Contact Us</h4>
            <div className='d-flex mt-4'>
            <input type="text" className='form-control' placeholder='Email ID' />
            <button className='btn btn-warning ms-3'>Subscribe</button>
