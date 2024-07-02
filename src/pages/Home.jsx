@@ -13,7 +13,8 @@ function Home() {
   // Call the useFetch.jsx to get the data
   const data = useFetch('https://dummyjson.com/products')
   console.log(data);
-  const dispatch = useDispatch
+  const dispatch = useDispatch()
+
   
   return (
     

@@ -12,7 +12,10 @@ export const wishlistSlice = createSlice({
         },
 
         // remove from wishlist function
-        removeFromWishlist: () => {}
+        removeFromWishlist: () => {
+           
+        }
+        
     }
         
 })

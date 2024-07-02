@@ -6,10 +6,6 @@ import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faTrash } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-Link
-
-
-
 
 function Cart() {
   return (
