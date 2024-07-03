@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card';
 import useFetch from '../hooks/useFetch';
 import { useDispatch } from 'react-redux';
 import { addToWishlist } from '../redux/slice/wishlistSlice';
+import { addtoCartList } from '../redux/slice/cartSlice';
 
 
 function Home() {
@@ -33,8 +34,8 @@ function Home() {
               {item.price}$
             </Card.Text>
             <div className="d-flex justify-content-between">
-              <Button className='border rounded-5' variant="danger"><FontAwesomeIcon icon={faHeart} onClick={()=>dispatch(addToWishlist(item))} /></Button>
-              <Button className='border rounded-5' variant="success"><FontAwesomeIcon icon={faCartShopping} /></Button>
+              <Button  onClick={()=>dispatch(addToWishlist(item))} className='border rounded-5' variant="danger"><FontAwesomeIcon icon={faHeart} /></Button>
+              <Button onClick={()=>dispatch(addtoCartList(item))} className='border rounded-5' variant="success"><FontAwesomeIcon icon={faCartShopping} /></Button>
             </div>
           </Card.Body>
         </Card>
